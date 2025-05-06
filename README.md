@@ -19,7 +19,7 @@ A React-based dashboard that lets you compare monthly living costs (rent, food, 
 ## Installation
 
 ```bash
-# Clone repository (if you pushed to GitHub)
+# Clone the repository
 git clone https://github.com/your-username/cost-of-living-dashboard.git
 cd cost-of-living-dashboard
 
@@ -28,4 +28,16 @@ npm install
 
 # Start local dev server
 npm run dev
+Open http://localhost:5173 in your browser.
+
+Deployment
+
+This project is deployed on Vercel:
+
+🔗 https://cost-of-living-dashboard.vercel.app
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 ```

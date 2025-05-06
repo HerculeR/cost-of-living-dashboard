@@ -1,0 +1,46 @@
+/* src/App.css */
+
+/* overall container */
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* selector and data area */
+.selector-container {
+  margin-top: 1.5rem;
+}
+
+/* cards wrapper */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* single card */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* card title */
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+/* card value */
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}

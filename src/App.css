@@ -1,46 +1,90 @@
-/* src/App.css */
-
-/* overall container */
+/* Overall app container (if used) */
 .container {
   text-align: center;
   margin-top: 2rem;
 }
 
-/* selector and data area */
+/* Selector + cards wrapper spacing */
 .selector-container {
   margin-top: 1.5rem;
 }
 
-/* cards wrapper */
-.cards-wrapper {
+/* 1. Responsive cards layout */
+.selector-container .cards-wrapper {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
-/* single card */
-.card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
+/* 2. Card base + hover */
+.selector-container .card {
+  background: #fff;
+  color: #222;
   padding: 1rem;
-  width: 120px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
   text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.selector-container .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* card title */
-.card h3 {
+/* 3. Typography inside cards */
+.selector-container .card h3 {
   margin: 0 0 0.5rem;
-  font-size: 1rem;
+  font-size: 1.125rem;
   text-transform: capitalize;
 }
-
-/* card value */
-.card p {
+.selector-container .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+
+/* 4. Chart container tweaks */
+.chart-container {
+  margin-top: 2rem;
+}
+
+/* 5. Loading spinner */
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: 2rem auto;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 6. Mobile‐only header styling */
+.mobile-title {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+/* 7. Small‐screen media queries */
+@media (max-width: 600px) {
+  .selector-container .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .selector-container .card {
+    width: 90%;
+  }
+  .chart-container {
+    width: 100%;
+    height: 300px;
+  }
 }

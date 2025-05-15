@@ -1,0 +1,66 @@
+{
+  "Sydney": {
+    "rent": 2200,
+    "food": 700,
+    "transport": 160,
+    "misc": 300,
+    "cost_of_living_index": 78.2,
+    "local_purchasing_power": 73.5
+  },
+  "Melbourne": {
+    "rent": 1850,
+    "food": 650,
+    "transport": 160,
+    "misc": 280,
+    "cost_of_living_index": 75.1,
+    "local_purchasing_power": 70.1
+  },
+  "Brisbane": {
+    "rent": 1700,
+    "food": 600,
+    "transport": 150,
+    "misc": 260,
+    "cost_of_living_index": 71.4,
+    "local_purchasing_power": 68.0
+  },
+  "Perth": {
+    "rent": 1600,
+    "food": 620,
+    "transport": 150,
+    "misc": 250,
+    "cost_of_living_index": 70.5,
+    "local_purchasing_power": 66.8
+  },
+  "Adelaide": {
+    "rent": 1500,
+    "food": 600,
+    "transport": 140,
+    "misc": 240,
+    "cost_of_living_index": 69.2,
+    "local_purchasing_power": 65.5
+  },
+  "Canberra": {
+    "rent": 1800,
+    "food": 670,
+    "transport": 160,
+    "misc": 270,
+    "cost_of_living_index": 74.0,
+    "local_purchasing_power": 72.0
+  },
+  "Hobart": {
+    "rent": 1400,
+    "food": 600,
+    "transport": 130,
+    "misc": 230,
+    "cost_of_living_index": 68.0,
+    "local_purchasing_power": 64.0
+  },
+  "Darwin": {
+    "rent": 1600,
+    "food": 650,
+    "transport": 150,
+    "misc": 260,
+    "cost_of_living_index": 72.3,
+    "local_purchasing_power": 67.5
+  }
+}

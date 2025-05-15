@@ -36,8 +36,7 @@ This project is deployed on Vercel:
 
 🔗 https://cost-of-living-dashboard.vercel.app
 
-## License
+License
 
-This project is licensed under the [MIT License](./LICENSE).
-
+This project is licensed under the MIT License.
 ```
